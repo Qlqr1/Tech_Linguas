@@ -75,6 +75,8 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 20px;
+    justify-items: center;
+    align-items: center;
 }
 
 #Logo_Footer{
