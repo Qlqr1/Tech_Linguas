@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <!-- Nosso CSS -->
-    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/logo_topo.png" type="image/x-icon">
     <title>Tech Línguas</title>
 </head>
-
-<div id="Topo">
-    <header>
-        <!-- Nossa Logo -->
-        <img src="" alt="Nossa Logo">
-        <h1>O Papel da Tecnologia no Ensino da Gramática e Outros Idiomas</h1>
-        <!-- Mudar idioma -->
-        <button></button>
+<div class="container">
+    <!-- Imagem à esquerda com uma classe específica -->
+    <img src="imagens/tech_linguas.jpeg" class="left-img" alt="Imagem Esquerda">
+        
+    <!-- Texto centralizado -->
+    <p class="text-between">O PAPEL DA TECNOLOGIA NO ENSINO DA
+        GRAMÁTICA E OUTROS IDIOMAS</p>
+        
+    <!-- Imagem à direita com uma classe específica -->
+    <img src="imagens/trocar_idioma.jpeg" class="right-img" alt="Imagem Direita">
+</div>
     </header>
-    <nav>
+    <nav class="fixed-menu">
         <ul>
             <li><a href="#IA">Inteligências Artificiais</a></li>
             <li><a href="#EAD">Ensino à Distância</a></li>
@@ -25,13 +29,61 @@
             <li><a href="#tec_ajuda">Plataformas</a></li>
         </ul>
     </nav>
-</div>
 
-<body> 
-    <div id="carosel">
-        
-    </div>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="imagens/imagem3.png" alt="Imagem 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagens/imagem2.png" alt="Imagem 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagens/imagem3.png" alt="Imagem 3">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagens/" alt="Imagem 4">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagens/" alt="Imagem 5">
+                </div>
+            </div>
+        <script>
+            let currentIndex = 0;
+            const slides = document.querySelectorAll('.carousel-slide');
+            const totalSlides = slides.length;
+            const indicators = document.querySelectorAll('.carousel-indicators div');
+    
+            function updateCarousel() {
+                const offset = -currentIndex * 100;
+                document.querySelector('.carousel').style.transform = `translateX(${offset}%)`; }
+                
+            function moveSlide(direction) {
+                currentIndex += direction;
+    
+                if (currentIndex >= totalSlides) {
+                    currentIndex = 0;
+                } else if (currentIndex < 0) {
+                    currentIndex = totalSlides - 1;
+                }
+    
+                updateCarousel();
+            }
+    
+            function moveToSlide(index) {
+                currentIndex = index;
+                updateCarousel();
+            }
+    
+           
+            setInterval(() => {
+                moveSlide(1);
+            }, 4000); 
+        </script>
+        </div>
 
+<!-- Mudar idioma -->
+<button></button>
 
     <section class="text">
         <div class="text_escrita_esquerda">
