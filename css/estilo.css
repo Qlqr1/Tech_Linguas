@@ -70,28 +70,27 @@ body{
 }
 
 /*Footer*/
-footer{
-    display: grid;
-    background-color: #0C2A76;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+footer {
+    height: 200px;
+    background-color: #0C2A76; /* Cor de fundo azul escuro */
     padding: 20px;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 50px; /* Espaçamento entre as imagens */
 }
 
-#Logo_Footer{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
+footer img.footer {
+    height: 150px; /* Ajustar conforme necessário */
+    width: auto; /* Manter proporção */
 }
 
-#Logo_IFC{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
+footer img.footer:nth-child(1) {
+    margin-right: 150px; /* Espaço entre a primeira logo e a segunda */
+}
+
+footer img.footer:nth-child(2) {
+    margin-left: 20px; /* Espaço entre a segunda logo e a primeira */
 }
 
 /*carrossel*/
