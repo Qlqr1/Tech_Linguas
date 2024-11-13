@@ -162,6 +162,18 @@ nav ul li a:hover{
     justify-self: center;
 }
 
+/*Respiro*/
+#respiro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #9fa4bc;
+    border-radius: 45px;
+    width: 1623px;
+    height: 624px;
+    justify-self: center;
+}
+
 /*Footer*/
 footer {
     height: 200px;
