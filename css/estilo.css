@@ -28,7 +28,7 @@ h1{
     font-weight: bold;
     margin: 0 20px;
     font-size: 25px; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-transform: uppercase; 
     text-align: center;
@@ -69,6 +69,11 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(13,15,132);
+    background-color: white;
     font-weight: bold;
 }
 
