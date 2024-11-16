@@ -162,6 +162,13 @@ nav ul li a:hover{
     justify-self: center;
 }
 
+.desenhos {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 170px;
+}
+
 /*Respiro*/
 #respiro{
     display: grid;
@@ -196,4 +203,17 @@ footer img.footer:nth-child(1) {
 
 footer img.footer:nth-child(2) {
     margin-left: 20px; /* Espaço entre a segunda logo e a primeira */
+}
+
+#tech_footer{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    
+}
+
+#ifc_footer{
+    position: relative;
+    height: 180px;
+    width: 450px;
 }
