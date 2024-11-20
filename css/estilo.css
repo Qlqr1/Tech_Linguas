@@ -4,7 +4,6 @@ body{
     background: linear-gradient(180deg, rgba(44,124,244,1) 0%, rgba(244,244,244,1) 100%);
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*menu fixo*/
@@ -12,6 +11,10 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
+}
+
+.p{
+    font-family: Comic;
 }
 
 /*Header*/
@@ -28,7 +31,7 @@ h1{
     font-weight: bold;
     margin: 0 20px;
     font-size: 25px; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Show;
     color: white;
     text-transform: uppercase; 
     text-align: center;
@@ -183,6 +186,7 @@ nav ul li a:hover{
 
 /*Footer*/
 footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 200px;
     background-color: #0C2A76; /* Cor de fundo azul escuro */
     padding: 20px;
