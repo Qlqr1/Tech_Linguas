@@ -174,10 +174,11 @@ nav ul li a:hover{
 
 /*Respiro*/
 #respiro{
+    line-height: 0.8;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.7em;
     grid-template-rows: 1fr;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy",Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
     display: grid;
