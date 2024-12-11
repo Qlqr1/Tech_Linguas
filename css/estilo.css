@@ -178,6 +178,8 @@ nav ul li a:hover{
     font-size: 2em;
     grid-template-rows: 1fr;
     font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
