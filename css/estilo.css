@@ -135,6 +135,7 @@ nav ul li a:hover{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     margin: 50px;
+    align-items: center;
 }
 
 .text_escrita_direita{
@@ -223,7 +224,6 @@ nav ul li a:hover{
 #respiro h2{
     grid-column: 1/2;
     grid-row: 1/2;
-    /*Depois ajeitar a fonte*/
 }
 
 #respiro img{
@@ -231,44 +231,10 @@ nav ul li a:hover{
     grid-row: 1/2;
 }
 
-/*Verificador*/
-#verificador_texto{
-    margin: 60px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 7fr;
-    background-color: #2C7CF4;
-    width: 1000px;
-    height: 500px;
-    justify-self: center;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 20px;
-    border-radius: 60px;
-}
-
-#verificador_texto h2{
-    grid-row: 1/2;
-    grid-column: 1/3;
-    background-color: #B5D8F9;
-    /**Ajeitar fonte*/
-}
-
-#verificador_texto form{
-    grid-row: 2/3;
-    grid-column: 1/2;
-}
-
-#verificador_texto p{
-    grid-row: 2/3;
-    grid-column: 2/3;
-    background-color: #f4f4f4;
-}
-
 /*Sites e Apps*/
 #tec_ajuda{
     display: grid;
-    grid-template-columns: repeat(400px, 3);
+    grid-template-columns: repeat(1fr, 4);
     grid-row: 900px;
     justify-self: center;
     justify-items: center;
@@ -282,6 +248,7 @@ nav ul li a:hover{
     background-color: #2C7CF4;
     border-radius: 60px;
     padding: 20px;
+    width: 250px;
 }
 
 #duolingo{
@@ -292,7 +259,7 @@ nav ul li a:hover{
     padding: 20px;
 }
 
-#outros_apps{
+#Memrise{
     grid-row: 1/2;
     grid-column: 3/4;
     background-color: #2C7CF4;
@@ -300,8 +267,21 @@ nav ul li a:hover{
     padding: 20px;
 }
 
+#IdiomasSemFronteira{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    background-color: #2C7CF4;
+    border-radius: 60px;
+    padding: 20px;
+}
+
 .image img, .image h4{
     display: inline-block;
+}
+
+.image img{
+    height: auto;
+    width: 100px;
 }
 
 /*Footer*/

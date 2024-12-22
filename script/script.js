@@ -1,3 +1,4 @@
+// Carrossel
 let currentIndex = 0;
 const slides = document.querySelectorAll('.carousel-slide');
 const totalSlides = slides.length;
@@ -27,3 +28,5 @@ function moveToSlide(index) {
 setInterval(() => {
     moveSlide(1);
 }, 4000); 
+
+// Link interno
