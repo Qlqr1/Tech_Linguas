@@ -19,6 +19,14 @@ body{
 
 /*Header*/
 header {
+            font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
     display: flex;
     justify-content: space-between;
     align-items: center;
