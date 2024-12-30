@@ -35,6 +35,14 @@ header {
 }
 
 h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
     font-size: 24px;
     font-weight: bold;
     margin: 0 20px;
