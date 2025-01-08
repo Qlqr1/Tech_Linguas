@@ -1,3 +1,8 @@
+/* html */
+html{
+    scroll-padding-top: 300px;
+}
+
 /*Body*/
 body{
     background: rgb(44,124,244);
@@ -14,54 +19,54 @@ body{
 }
 
 .p{
-   font-family: "Roboto", serif;
-        font-weight: 100;
-        font-style: normal;
-        font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: normal;
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-family: "Roboto", serif;
-        font-weight: 500;
-        font-style: normal;
-        font-family: "Roboto", serif;
-        font-weight: 700;
-        font-style: normal;
-        font-family: "Roboto", serif;
-        font-weight: 900;
-        font-style: normal;
-        font-family: "Roboto", serif;
-        font-weight: 100;
-        font-style: italic;
-        font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: italic;
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: italic;
-        font-family: "Roboto", serif;
-        font-weight: 500;
-        font-style: italic;
-        font-family: "Roboto", serif;
-        font-weight: 700;
-        font-style: italic;
-        font-family: "Roboto", serif;
-        font-weight: 900;
-        font-style: italic;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
 }
 
 /*Header*/
 header {
-            font-family: "Libre Baskerville", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-family: "Libre Baskerville", serif;
-        font-weight: 700;
-        font-style: normal;
-        font-family: "Libre Baskerville", serif;
-        font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,6 +131,35 @@ h2{
     margin-right: 25px;
 }
 
+/* Menu dropdown */
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 25px;
+}
+  
+header ul li {
+    float: left;
+}
+
+header ul li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /*Nav*/
 nav {
@@ -187,6 +221,7 @@ nav ul li a:hover{
     grid-template-rows: 1fr;
     margin: 50px;
     align-items: center;
+    justify-items: center;
 }
 
 .text_escrita_direita{
@@ -229,6 +264,7 @@ nav ul li a:hover{
 }
 
 .text_imagem_esquerda{
+    margin: 0;
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
@@ -236,6 +272,7 @@ nav ul li a:hover{
 }
 
 .text_imagem_direita{
+    margin: 0;
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: center;
