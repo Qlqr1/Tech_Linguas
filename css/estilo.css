@@ -375,25 +375,25 @@ nav ul li a:hover{
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 200px;
-    background-color: #0C2A76; /* Cor de fundo azul escuro */
+    background-color: #0C2A76; 
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px; /* Espaçamento entre as imagens */
+    gap: 50px; 
 }
 
 footer img.footer {
-    height: 150px; /* Ajustar conforme necessário */
-    width: auto; /* Manter proporção */
+    height: 150px; 
+    width: auto; 
 }
 
 footer img.footer:nth-child(1) {
-    margin-right: 150px; /* Espaço entre a primeira logo e a segunda */
+    margin-right: 150px; 
 }
 
 footer img.footer:nth-child(2) {
-    margin-left: 20px; /* Espaço entre a segunda logo e a primeira */
+    margin-left: 20px; 
 }
 
 #tech_footer{
